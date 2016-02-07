@@ -2,7 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/makenew-npm-package.svg)](https://www.npmjs.com/package/makenew-npm-package)
 [![GitHub license](https://img.shields.io/github/license/makenew/npm-package.svg)](./LICENSE.txt)
-[![Gemnasium](https://img.shields.io/gemnasium/makenew/npm-package.svg)](https://gemnasium.com/makenew/npm-package)
+[![David](https://img.shields.io/david/makenew/npm-package.svg)](https://david-dm.org/makenew/npm-package)
+[![David](https://img.shields.io/david/dev/makenew/npm-package.svg)](https://david-dm.org/makenew/npm-package#info=devDependencies)
 [![Travis](https://img.shields.io/travis/makenew/npm-package.svg)](https://travis-ci.org/makenew/npm-package)
 
 ## Description

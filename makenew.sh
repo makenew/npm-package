@@ -54,6 +54,9 @@ makenew () {
   find_replace "s/makenew\/npm-package/${mk_user}\/${mk_repo}/g"
   find_replace "s/makenew-npm-package/${mk_slug}/g"
 
+  mk_attribution='> Built from [makenew/npm-package](https://github.com/makenew/npm-package).'
+  sed -i -e "9i ${mk_attribution}\n" README.md
+
   echo
   echo 'Replacing boilerplate.'
 }

@@ -14,12 +14,14 @@ Bootstrap a new [npm package] in less than a minute.
 
 ### Features
 
-* [Node.js]'s [npm] package structure.
-* [Travis CI] ready.
-* [EditorConfig].
-* Badges from [Shields.io].
+- [Node.js]'s [npm] package structure.
+- [Travis CI] ready.
+- [Keep a CHANGELOG].
+- Consistent coding with [EditorConfig].
+- Badges from [Shields.io].
 
 [EditorConfig]: http://editorconfig.org/
+[Keep a CHANGELOG]: http://keepachangelog.com/
 [Node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
 [Shields.io]: http://shields.io/

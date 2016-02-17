@@ -41,7 +41,7 @@ makenew () {
   read -p '> GitHub user or organization name: ' mk_user
   read -p '> GitHub repository name: ' mk_repo
 
-  sed -i -e '11,101d;158,161d' README.md
+  sed -i -e '3d;12,102d;159,162d' README.md
   sed -i -e "11i ${mk_description}" README.md
 
   find_replace "s/version\": \".*\"/version\": \"${mk_version}\"/g"
@@ -54,7 +54,7 @@ makenew () {
   find_replace "s/makenew\/npm-package/${mk_user}\/${mk_repo}/g"
   find_replace "s/makenew-npm-package/${mk_slug}/g"
 
-  mk_attribution='> Built from [makenew/npm-package](https://github.com/makenew/npm-package).'
+  mk_attribution='> <img src="https://makenew.github.io/makenew.svg" alt="Make New" height="20"> Built from [makenew/npm-package](https://github.com/makenew/npm-package).'
   sed -i -e "9i ${mk_attribution}\n" README.md
 
   echo

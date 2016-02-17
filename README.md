@@ -1,5 +1,6 @@
 # npm Package Skeleton
 
+[<img src="https://makenew.github.io/makenew.svg" alt="Make New" height="20">](https://makenew.github.io/)
 [![npm](https://img.shields.io/npm/v/makenew-npm-package.svg)](https://www.npmjs.com/package/makenew-npm-package)
 [![GitHub license](https://img.shields.io/github/license/makenew/npm-package.svg)](./LICENSE.txt)
 [![David](https://img.shields.io/david/makenew/npm-package.svg)](https://david-dm.org/makenew/npm-package)

@@ -54,7 +54,7 @@ makenew () {
   find_replace "s/makenew\/npm-package/${mk_user}\/${mk_repo}/g"
   find_replace "s/makenew-npm-package/${mk_slug}/g"
 
-  mk_attribution='> <img src="https://makenew.github.io/makenew.svg" alt="Make New" height="20"> Built from [makenew/npm-package](https://github.com/makenew/npm-package).'
+  mk_attribution='> Built from [makenew/npm-package](https://github.com/makenew/npm-package).'
   sed -i -e "9i ${mk_attribution}\n" README.md
 
   echo
